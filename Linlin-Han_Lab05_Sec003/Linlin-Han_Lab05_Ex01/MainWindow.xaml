@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Generate Int Array" HorizontalAlignment="Left" Margin="46,45,0,0" VerticalAlignment="Top" Width="130" Height="50" x:Name="btnGenIntArray" Click="btnGenIntArray_Click"/>
+        <Button Content="Generate Double Array" HorizontalAlignment="Left" Margin="46,134,0,0" VerticalAlignment="Top" Width="130" Height="50" x:Name="btnGenDoubleArray" Click="btnGenDoubleArray_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="139" Margin="261,45,0,0" TextWrapping="Wrap" Text="Display Array here..." VerticalAlignment="Top" Width="221" x:Name="txtDisplay"/>
+
+
     </Grid>
 </Window>

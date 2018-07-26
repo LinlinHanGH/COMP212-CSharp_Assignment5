@@ -1,0 +1,15 @@
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\bin\Debug\Linlin-Han_Lab05_Ex01.exe.config
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\bin\Debug\Linlin-Han_Lab05_Ex01.exe
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\bin\Debug\Linlin-Han_Lab05_Ex01.pdb
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01.csprojResolveAssemblyReference.cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\MainWindow.g.cs
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\App.g.cs
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01_MarkupCompile.cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01_MarkupCompile.lref
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\MainWindow.baml
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01.g.resources
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin_Han_Lab05_Ex01.Properties.Resources.resources
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01.csproj.GenerateResource.Cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01.csproj.CoreCompileInputs.cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01.exe
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex01\obj\Debug\Linlin-Han_Lab05_Ex01.pdb

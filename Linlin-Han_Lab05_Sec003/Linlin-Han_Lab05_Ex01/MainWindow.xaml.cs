@@ -20,9 +20,45 @@ namespace Linlin_Han_Lab05_Ex01
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnGenIntArray_Click(object sender, RoutedEventArgs e)
+        {
+            int[] intArray = new int[50];
+            Random rnd = new Random();
+            for (int i = 0; i < intArray.Length; ++i)
+            { intArray[i] = rnd.Next(100); }
+                
+            string displayArray="";
+
+            foreach (var item in intArray)
+            {
+                displayArray += item + ", ";
+            }
+
+            txtDisplay.Text = displayArray;
+        }
+
+        private void btnGenDoubleArray_Click(object sender, RoutedEventArgs e)
+        {
+            double[] doubleArray = new double[50];
+            Random rnd = new Random();
+            for (int i = 0; i < doubleArray.Length; ++i)
+            { doubleArray[i] = rnd.NextDouble() * (100 - 0) + 0; }
+
+            string displayArray = "";
+
+            foreach (var item in doubleArray)
+            {
+                displayArray += item.ToString("0.00") + ", ";
+            }
+
+            txtDisplay.Text = displayArray;
+
         }
     }
 }

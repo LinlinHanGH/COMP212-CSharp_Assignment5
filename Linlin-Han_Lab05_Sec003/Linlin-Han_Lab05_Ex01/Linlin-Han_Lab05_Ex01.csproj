@@ -7,7 +7,7 @@
     <ProjectGuid>{12FECE75-F3E5-4770-BE21-3B7EB4D6A6D0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Linlin_Han_Lab05_Ex01</RootNamespace>
-    <AssemblyName>Linlin_Han_Lab05_Ex01</AssemblyName>
+    <AssemblyName>Linlin-Han_Lab05_Ex01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -52,6 +52,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
