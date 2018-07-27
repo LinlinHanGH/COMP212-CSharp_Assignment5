@@ -12,7 +12,7 @@
         <TextBox HorizontalAlignment="Left" Height="246" Margin="261,23,0,0" TextWrapping="Wrap" Text="Display Array here..." VerticalAlignment="Top" Width="221" x:Name="txtDisplay" IsEnabled="False"/>
         <Button Content="Search for" HorizontalAlignment="Left" Margin="46,169,0,0" VerticalAlignment="Top" Width="67" Height="47" x:Name="btnSearch" Click="btnSearch_Click"/>
         <TextBox HorizontalAlignment="Left" Height="47" Margin="118,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="58" x:Name="txtGetNum"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="46,235,0,0" TextWrapping="Wrap" Text="Search Result: " VerticalAlignment="Top" Width="130" x:Name="result" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="46,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" x:Name="result" IsEnabled="False"/>
 
 
 

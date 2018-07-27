@@ -23,7 +23,9 @@ namespace Linlin_Han_Lab05_Ex01
     {
         Random rnd = new Random();
         int[] intArray = new int[100];
-        double[] doubleArray = new double[50];
+        double[] doubleArray = new double[3];
+        string displayArray = "";
+        string arrayType = "";
 
         public MainWindow()
         {
@@ -32,10 +34,13 @@ namespace Linlin_Han_Lab05_Ex01
 
         private void btnGenIntArray_Click(object sender, RoutedEventArgs e)
         {
+            arrayType = "intArray";
+            result.Text = "";
+            txtGetNum.Text = "";
             for (int i = 0; i < intArray.Length; ++i)
             { intArray[i] = rnd.Next(100); }
                 
-            string displayArray="";
+            displayArray="";
 
             foreach (var item in intArray)
             {
@@ -43,42 +48,66 @@ namespace Linlin_Han_Lab05_Ex01
             }
 
             txtDisplay.Text = displayArray;
+            
         }
 
         private void btnGenDoubleArray_Click(object sender, RoutedEventArgs e)
         {
+            arrayType = "doubleArray";
+            result.Text = "";
+            txtGetNum.Text = "";
             for (int i = 0; i < doubleArray.Length; ++i)
-            { doubleArray[i] = rnd.NextDouble() * (100 - 0) + 0; }
-
-            string displayArray = "";
-
+            { doubleArray[i] = Math.Round( rnd.NextDouble() * (100 - 0) + 0,2); }
+            displayArray = "";
             foreach (var item in doubleArray)
             {
-                displayArray += item.ToString("0.00") + ", ";
+                displayArray += item + ", ";
             }
 
             txtDisplay.Text = displayArray;
+            
 
         }
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
             string searchfor = txtGetNum.Text.ToString();
-            int num1 =Convert.ToInt32( searchfor);
-            int count = 0;
-            for (int i = 0; i < intArray.Length; i++)
-            {
-                if(CompareNumbers(num1, intArray[i]) == true)
+            if (arrayType == "intArray") {
+                int searchForInt = Convert.ToInt32(searchfor);
+                int count = 0;
+                for (int i = 0; i < intArray.Length; i++)
                 {
-                     result.Text += i.ToString()+",";
-                    count++;
-                }
+                    if (CompareNumbers(searchForInt, intArray[i]) == true)
+                    {
+                        result.Text += i.ToString() + ",";
+                        count++;
+                    }
 
+                }
+                if (count == 0)
+                {
+                    result.Text = "-1";
+                }
             }
-            if (count== 0)
+            if (arrayType == "doubleArray")
             {
-                result.Text = "-1";
+                double searchForDouble = Convert.ToDouble(searchfor);
+                int count = 0;
+                for (int i = 0; i < doubleArray.Length; i++)
+                {
+                    if (CompareNumbers(searchForDouble, doubleArray[i]) == true)
+                    {
+                        result.Text += i.ToString() + ",";
+                        count++;
+                    }
+
+                }
+                if (count == 0)
+                {
+                    result.Text = "-1";
+                }
             }
+
 
         }
 
