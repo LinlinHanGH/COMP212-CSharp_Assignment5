@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections;
 
 namespace Linlin_Han_Lab05_Ex01
 {
@@ -20,7 +21,10 @@ namespace Linlin_Han_Lab05_Ex01
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        Random rnd = new Random();
+        int[] intArray = new int[100];
+        double[] doubleArray = new double[50];
+
         public MainWindow()
         {
             InitializeComponent();
@@ -28,8 +32,6 @@ namespace Linlin_Han_Lab05_Ex01
 
         private void btnGenIntArray_Click(object sender, RoutedEventArgs e)
         {
-            int[] intArray = new int[50];
-            Random rnd = new Random();
             for (int i = 0; i < intArray.Length; ++i)
             { intArray[i] = rnd.Next(100); }
                 
@@ -45,8 +47,6 @@ namespace Linlin_Han_Lab05_Ex01
 
         private void btnGenDoubleArray_Click(object sender, RoutedEventArgs e)
         {
-            double[] doubleArray = new double[50];
-            Random rnd = new Random();
             for (int i = 0; i < doubleArray.Length; ++i)
             { doubleArray[i] = rnd.NextDouble() * (100 - 0) + 0; }
 
@@ -60,5 +60,45 @@ namespace Linlin_Han_Lab05_Ex01
             txtDisplay.Text = displayArray;
 
         }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string searchfor = txtGetNum.Text.ToString();
+            int num1 =Convert.ToInt32( searchfor);
+            int count = 0;
+            for (int i = 0; i < intArray.Length; i++)
+            {
+                if(CompareNumbers(num1, intArray[i]) == true)
+                {
+                     result.Text += i.ToString()+",";
+                    count++;
+                }
+
+            }
+            if (count== 0)
+            {
+                result.Text = "-1";
+            }
+
+        }
+
+        private static bool CompareNumbers<T>(T num1, T num2) where T : IComparable<T>
+        {
+            Boolean result=false;
+
+            if (num1.CompareTo(num2) == 0)
+            {
+                result = true;
+            }
+
+            else if (num1.CompareTo(num2) != 0)
+            {
+                result = false;
+            }
+
+            return result; // return largest object
+        }
+
+       
     }
 }
