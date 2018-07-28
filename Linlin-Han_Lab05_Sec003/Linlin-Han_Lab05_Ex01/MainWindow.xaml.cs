@@ -23,7 +23,7 @@ namespace Linlin_Han_Lab05_Ex01
     {
         Random rnd = new Random();
         int[] intArray = new int[100];
-        double[] doubleArray = new double[3];
+        double[] doubleArray = new double[50];
         string displayArray = "";
         string arrayType = "";
 
@@ -72,18 +72,29 @@ namespace Linlin_Han_Lab05_Ex01
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
             string searchfor = txtGetNum.Text.ToString();
+            string strResult = "";
             if (arrayType == "intArray") {
-                int searchForInt = Convert.ToInt32(searchfor);
+                int searchForInt=0;
+                try
+                {
+                    searchForInt = Convert.ToInt32(searchfor);
+                }
+                catch {
+                    result.Text = "error";
+                }
+                
                 int count = 0;
                 for (int i = 0; i < intArray.Length; i++)
                 {
                     if (CompareNumbers(searchForInt, intArray[i]) == true)
                     {
-                        result.Text += i.ToString() + ",";
+                        strResult += i.ToString() + ",";
                         count++;
                     }
 
                 }
+                result.Text = strResult;
+
                 if (count == 0)
                 {
                     result.Text = "-1";
@@ -91,17 +102,27 @@ namespace Linlin_Han_Lab05_Ex01
             }
             if (arrayType == "doubleArray")
             {
-                double searchForDouble = Convert.ToDouble(searchfor);
+                double searchForDouble = 0;
+
+                try {
+                    searchForDouble = Convert.ToDouble(searchfor);
+                }
+                catch
+                {
+                    result.Text = "error";
+                }
+                
                 int count = 0;
                 for (int i = 0; i < doubleArray.Length; i++)
                 {
                     if (CompareNumbers(searchForDouble, doubleArray[i]) == true)
                     {
-                        result.Text += i.ToString() + ",";
+                        strResult += i.ToString() + ",";
                         count++;
                     }
 
                 }
+                result.Text = strResult;
                 if (count == 0)
                 {
                     result.Text = "-1";
