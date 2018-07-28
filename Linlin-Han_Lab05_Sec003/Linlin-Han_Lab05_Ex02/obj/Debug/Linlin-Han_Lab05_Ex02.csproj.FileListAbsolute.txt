@@ -4,3 +4,4 @@ C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-H
 C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex02\obj\Debug\Linlin-Han_Lab05_Ex02.csproj.CoreCompileInputs.cache
 C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex02\obj\Debug\Linlin-Han_Lab05_Ex02.exe
 C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex02\obj\Debug\Linlin-Han_Lab05_Ex02.pdb
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex02\obj\Debug\Linlin-Han_Lab05_Ex02.csprojResolveAssemblyReference.cache

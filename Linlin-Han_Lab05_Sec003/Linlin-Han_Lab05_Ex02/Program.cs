@@ -22,7 +22,7 @@ namespace Linlin_Han_Lab05_Ex02
             Console.Write("Array charArray contains: ");
             DisplayArray(charArray); // pass a char array argument
             Console.WriteLine();
-            DisplayArray(intArray, 0, 1);
+            DisplayArray(intArray, -1, 1);
         }
 
         // output array of all types                           
@@ -42,11 +42,31 @@ namespace Linlin_Han_Lab05_Ex02
         // validation: less than length
         // validation: highIndex should be bigger than lowIndex
         {
-
-            for (int i = lowIndex; i <= highIndex; i++)
+            if (lowIndex < 0 || highIndex < 0)
             {
-                Console.WriteLine(inputArray[i]);
+                try
+                {
+                    throw new ArgumentException("The Index number cannot be less than 0.");
+                }
+                catch(Exception ex) {
+                    Console.WriteLine(ex.Message);
+                }
             }
+            else if (lowIndex > highIndex)
+            {
+                throw new ArgumentException("The lowIndex number must be less than the highIndex number.");
+            }
+            else if (lowIndex > inputArray.Length - 1 || highIndex > inputArray.Length - 1)
+            {
+                throw new ArgumentException("The index number cannot be more than the length of the array");
+            }
+            else {
+                //for (int i = lowIndex; i <= highIndex; i++)
+                //{
+                //    Console.WriteLine(inputArray[i]);
+                //}
+            }
+            
 
 
             Console.WriteLine();
