@@ -22,7 +22,31 @@ namespace Linlin_Han_Lab05_Ex02
             Console.Write("Array charArray contains: ");
             DisplayArray(charArray); // pass a char array argument
             Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("--------valid arguments------------");
+            Console.WriteLine("Display intArray -- lowIndex:1 highIndex:1");
+            DisplayArray(intArray, 1, 1);
+
+            Console.WriteLine("Display doubleArray -- lowIndex:0 highIndex:3");
+            DisplayArray(doubleArray, 0, 3);
+
+            Console.WriteLine("Display charArray -- lowIndex:2 highIndex:4");
+            DisplayArray(charArray, 2, 5);
+            Console.WriteLine();
+
+            Console.WriteLine("--------invalid arguments-----------");
+            Console.WriteLine("Display intArray -- lowIndex:-1 highIndex:1");
             DisplayArray(intArray, -1, 1);
+
+            Console.WriteLine("Display doubleArray -- lowIndex:2 highIndex:1");
+            DisplayArray(doubleArray, 2, 1);
+
+            Console.WriteLine("Display charArray -- lowIndex:2 highIndex:20");
+            DisplayArray(charArray, 2, 20);
+            Console.WriteLine();
+      
+           
         }
 
         // output array of all types                           
@@ -54,21 +78,35 @@ namespace Linlin_Han_Lab05_Ex02
             }
             else if (lowIndex > highIndex)
             {
-                throw new ArgumentException("The lowIndex number must be less than the highIndex number.");
+                try
+                {
+                    throw new ArgumentException("The lowIndex number must be less than the highIndex number.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                
             }
             else if (lowIndex > inputArray.Length - 1 || highIndex > inputArray.Length - 1)
             {
-                throw new ArgumentException("The index number cannot be more than the length of the array");
+                try
+                {
+                    throw new ArgumentException("The index number cannot be more than the length of the array");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                
             }
             else {
-                //for (int i = lowIndex; i <= highIndex; i++)
-                //{
-                //    Console.WriteLine(inputArray[i]);
-                //}
+                for (int i = lowIndex; i <= highIndex; i++)
+                {
+                    Console.Write($"{inputArray[i]} ");
+                }
             }
             
-
-
             Console.WriteLine();
         }
     }
