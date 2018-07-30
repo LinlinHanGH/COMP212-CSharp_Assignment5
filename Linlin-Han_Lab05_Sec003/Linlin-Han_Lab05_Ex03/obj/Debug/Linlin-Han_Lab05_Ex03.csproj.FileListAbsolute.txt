@@ -1,0 +1,6 @@
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex03\bin\Debug\Linlin-Han_Lab05_Ex03.exe.config
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex03\bin\Debug\Linlin-Han_Lab05_Ex03.exe
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex03\bin\Debug\Linlin-Han_Lab05_Ex03.pdb
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex03\obj\Debug\Linlin-Han_Lab05_Ex03.csproj.CoreCompileInputs.cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex03\obj\Debug\Linlin-Han_Lab05_Ex03.exe
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex03\obj\Debug\Linlin-Han_Lab05_Ex03.pdb
