@@ -15,8 +15,8 @@ namespace Linlin_Han_Lab05_Ex02
         public ArgumentException(string ex)
            : base($"{ex} ") { }
 
-        //// two-parameter constructor
-        //public EmptyListException(string exception, Exception inner)
-        //   : base(exception, inner) { }
+        // two-parameter constructor
+        public ArgumentException(string exception, Exception inner)
+           : base(exception, inner) { }
     }
 }

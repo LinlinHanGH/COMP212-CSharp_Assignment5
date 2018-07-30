@@ -32,7 +32,7 @@ namespace Linlin_Han_Lab05_Ex02
             DisplayArray(doubleArray, 0, 3);
 
             Console.WriteLine("Display charArray -- lowIndex:2 highIndex:4");
-            DisplayArray(charArray, 2, 5);
+            DisplayArray(charArray, 2, 4);
             Console.WriteLine();
 
             Console.WriteLine("--------invalid arguments-----------");
