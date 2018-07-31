@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linlin-Han_Lab05_Ex02", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linlin-Han_Lab05_Ex03", "Linlin-Han_Lab05_Ex03\Linlin-Han_Lab05_Ex03.csproj", "{6DE29C91-1FDD-49B8-863E-9AE37B7511FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linlin-Han_Lab05_Ex04", "Linlin-Han_Lab05_Ex04\Linlin-Han_Lab05_Ex04.csproj", "{84D2BD27-FE8B-4ED5-BD4B-E853AAED6B13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6DE29C91-1FDD-49B8-863E-9AE37B7511FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE29C91-1FDD-49B8-863E-9AE37B7511FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE29C91-1FDD-49B8-863E-9AE37B7511FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D2BD27-FE8B-4ED5-BD4B-E853AAED6B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D2BD27-FE8B-4ED5-BD4B-E853AAED6B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D2BD27-FE8B-4ED5-BD4B-E853AAED6B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D2BD27-FE8B-4ED5-BD4B-E853AAED6B13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

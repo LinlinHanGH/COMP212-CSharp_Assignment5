@@ -15,9 +15,9 @@ namespace Linlin_Han_Lab05_Ex03
             Student student = new Student("123","Alice");
             
             LinkedList<Student> lnkStudent = new LinkedList<Student>();
-            //AddLinkedListItem(lnkStudent, student);
 
-            for (int i = 0; i < 2; i++)
+
+            for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Please enter the student ID:");
                 id = Console.ReadLine();
@@ -30,27 +30,31 @@ namespace Linlin_Han_Lab05_Ex03
             PrintLinkedList(lnkStudent);
 
 
-            //Console.WriteLine();
-            //Console.WriteLine("Please enter the student's ID that you want to remove");
-            //id = Console.ReadLine();
-            //Console.WriteLine("Please enter the student's Name that you want to remove");
-            //name = Console.ReadLine();
-            //Student rmStudent = new Student(id, name);
+            Console.WriteLine();
+            Console.WriteLine("Please enter the student's ID that you want to remove");
+            id = Console.ReadLine();
+            Console.WriteLine("Please enter the student's Name that you want to remove");
+            name = Console.ReadLine();
+            Student rmStudent = new Student(id, name);
 
-            //Console.WriteLine();
-            //RemoveLinkedListItem(lnkStudent, rmStudent);
-            //Console.WriteLine("Print LinkedList after removing 1 student");
-            //PrintLinkedList(lnkStudent);
+            Console.WriteLine();
+            RemoveLinkedListItem(lnkStudent, rmStudent);
+            Console.WriteLine("Print LinkedList after removing 1 student");
+            PrintLinkedList(lnkStudent);
 
-            //Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("Please enter the student's ID that you want to search");
             id = Console.ReadLine();
             Console.WriteLine("Please enter the student's Name that you want to search");
             name = Console.ReadLine();
             Student searchStudent = new Student(id, name);
-            Console.WriteLine("The index of the student is:"+ SearchLinkedListItem(lnkStudent, searchStudent));
-            
+            Console.WriteLine("The index of the student in the list is:" + SearchLinkedListItem(lnkStudent, searchStudent));
 
+            Console.WriteLine();
+            Console.WriteLine("Call RemoveAllLinkedListItems() method");
+            RemoveAllLinkedListItems(lnkStudent);
+            Console.WriteLine("Print LinkedList after removing all items");
+            PrintLinkedList(lnkStudent);
 
         }// end of main
 
@@ -101,6 +105,13 @@ namespace Linlin_Han_Lab05_Ex03
             }
             return index;
         }
+
+        public static void RemoveAllLinkedListItems(LinkedList<Student> lnkStudent)
+        {
+            lnkStudent.Clear();
+           
+        }
+
 
 
         public static void PrintLinkedList(LinkedList<Student> lnkStudent)
