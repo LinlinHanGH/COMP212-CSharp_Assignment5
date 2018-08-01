@@ -31,9 +31,10 @@ namespace Linlin_Han_Lab05_Ex04
             Console.WriteLine("Print employeeDict after adding");
             PrintDictionary(employeeDict);
 
-            //Console.WriteLine("Print employeeDict after removing all");
-            //RemoveDictionaryItem(employeeDict);
 
+            Console.WriteLine();
+            Console.WriteLine("Employee with max salary:");
+            MaxDictionaryItem(employeeDict);
 
 
             Console.WriteLine();
@@ -43,6 +44,10 @@ namespace Linlin_Han_Lab05_Ex04
             salary =Convert.ToDouble( Console.ReadLine());
             Employee searchEmployee = new Employee(name,salary);
             Console.WriteLine("The index of the emlpoyee in the list is:" + SearchDictionaryItem(employeeDict, searchEmployee));
+
+            Console.WriteLine();
+            Console.WriteLine("Print employeeDict after removing all");
+            RemoveDictionaryItem(employeeDict);
 
 
         }
@@ -68,6 +73,15 @@ namespace Linlin_Han_Lab05_Ex04
          int position = employeeDict.FirstOrDefault(x => x.Value.Name == emp.Name).Key;
             return position;
             
+        }
+
+        public static void MaxDictionaryItem(SortedDictionary<int, Employee> employeeDict) {
+            
+
+            double maxSalary = employeeDict.Max(x => x.Value.Salary);
+            var maxEmp= employeeDict.FirstOrDefault(x => x.Value.Salary == maxSalary).Value;
+            Console.WriteLine($"{ maxEmp }");
+
 
         }
     }
