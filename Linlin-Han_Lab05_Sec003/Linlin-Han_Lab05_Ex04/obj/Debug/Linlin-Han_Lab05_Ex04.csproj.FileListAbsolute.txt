@@ -1,0 +1,7 @@
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\bin\Debug\Linlin-Han_Lab05_Ex04.exe.config
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\bin\Debug\Linlin-Han_Lab05_Ex04.exe
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\bin\Debug\Linlin-Han_Lab05_Ex04.pdb
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\obj\Debug\Linlin-Han_Lab05_Ex04.csprojResolveAssemblyReference.cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\obj\Debug\Linlin-Han_Lab05_Ex04.csproj.CoreCompileInputs.cache
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\obj\Debug\Linlin-Han_Lab05_Ex04.exe
+C:\Users\Linlin\Desktop\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Sec003\Linlin-Han_Lab05_Ex04\obj\Debug\Linlin-Han_Lab05_Ex04.pdb

@@ -24,11 +24,30 @@ namespace Linlin_Han_Lab05_Ex04
             {
                 AddDictionaryItem(employeeDict, employees[i]);
             }
+
+            Console.WriteLine("Print employeeDict after adding");
+            PrintDictionary(employeeDict);
+
+            Console.WriteLine("Print employeeDict after removing all");
+            RemoveDictionaryItem(employeeDict);
+
+
         }
 
         public static void AddDictionaryItem(SortedDictionary<int, Employee> employeeDict, Employee emp)
         {
             employeeDict.Add(++key, emp);
+        }
+
+        public static void RemoveDictionaryItem(SortedDictionary<int, Employee> employeeDict) {
+            employeeDict.Clear();
+        }
+
+        public static void PrintDictionary(SortedDictionary<int, Employee> employeeDict) {
+            foreach (var key in employeeDict.Keys)
+            {
+                Console.WriteLine($" Key:{key} , Value:{employeeDict[key]}");
+            }
         }
     }
 }
